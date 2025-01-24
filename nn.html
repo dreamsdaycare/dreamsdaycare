@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Section</title>
+  <!-- Styled Frame for the Video -->
+<div class="video-frame">
+    <video src="video/jj.mp4" controls autoplay>
+        Your browser does not support HTML video.
+    </video>
+</div>
+
+<!-- Add this CSS to style the video frame -->
+<style>
+    .video-frame {
+        width: 100%;
+        max-width: 600px; /* Limit the size */
+        margin: 20px auto; /* Center the frame on the page */
+        padding: 10px; /* Space around the video */
+        border: 5px solid #f0f0f0; /* Frame border color */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a modern look */
+        background: #ffffff; /* Optional: Background color for the frame */
+        overflow: hidden; /* Ensures the video fits within the rounded frame */
+    }
+
+    .video-frame video {
+        width: 100%;
+        height: auto;
+        border-radius: 8px; /* Match the frame's rounding */
+    }
+</style>
+
+
+</body>
+</html>
